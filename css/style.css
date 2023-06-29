@@ -100,8 +100,7 @@ a {
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
-  -webkit-text-decoration-line: underline;
-          text-decoration-line: underline;
+  text-decoration-line: underline;
   color: #FFFFFF;
   opacity: 0.5;
 }
@@ -246,24 +245,12 @@ a {
   left: 20px;
   border-radius: 15px;
   display: block;
-  -webkit-animation: fade 2s;
-          animation: fade 2s;
+  animation: fade 2s;
 }
 
 .fade {
-  -webkit-animation-name: fade;
-          animation-name: fade;
-  -webkit-animation-duration: 2s;
-          animation-duration: 2s;
-}
-
-@-webkit-keyframes fade {
-  from {
-    opacity: 0.1;
-  }
-  to {
-    opacity: 1;
-  }
+  animation-name: fade;
+  animation-duration: 2s;
 }
 
 @keyframes fade {
@@ -292,6 +279,12 @@ a {
     display: block;
   }
   .work-text {
-    width: 420px;
+    width: 350px;
+  }
+  .volunteer-img {
+    margin-top: 60px;
+  }
+  .sidebar {
+    padding-top: 50px;
   }
 }/*# sourceMappingURL=style.css.map */
