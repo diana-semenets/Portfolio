@@ -277,6 +277,11 @@ a {
   border: 2px solid #FFFFFF;
 }
 
+@media (max-width: 767px) {
+  .about-content {
+    flex-wrap: wrap-reverse;
+  }
+}
 @media (max-width: 500px) {
   .resume {
     max-width: 498px;
