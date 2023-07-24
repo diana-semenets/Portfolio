@@ -12,6 +12,10 @@ a {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin: 0 auto;
   color: rgb(17, 17, 17);
+  background-image: url("../img/back.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .main__container {
@@ -279,12 +283,6 @@ a {
     display: block;
   }
   .work-text {
-    width: 350px;
-  }
-  .volunteer-img {
-    margin-top: 60px;
-  }
-  .sidebar {
-    padding-top: 50px;
+    width: 420px;
   }
 }/*# sourceMappingURL=style.css.map */
