@@ -9,6 +9,7 @@ a {
 }
 
 .wrapper {
+  min-height: 900px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin: 0 auto;
   color: rgb(17, 17, 17);
