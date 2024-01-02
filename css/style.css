@@ -228,14 +228,11 @@ a {
 }
 
 .weather__hidden {
+  width: fit-content;
   height: 60px;
-  background-color: rgb(224, 224, 224);
-  position: absolute;
+  background-color: rgb(224, 224, 224); 
   padding: 15px 0;
-  bottom: 0;
-  left: 20px;
   border-radius: 15px;
-  display: none;
   transform: translateY(50%);
   transition: 0.5s all;
 }
@@ -282,8 +279,18 @@ a {
   .about-content {
     flex-wrap: wrap-reverse;
   }
+  .weather__hidden {
+    height: 46px;
+    padding: 10px 0;
+  }
 }
 @media (max-width: 500px) {
+  .projects__container {
+    margin: 1rem !important;
+  }
+  .item {
+    margin: 0 5px;
+  }
   .resume {
     max-width: 498px;
     display: block;
@@ -291,4 +298,22 @@ a {
   .work-text {
     width: 420px;
   }
-}/*# sourceMappingURL=style.css.map */
+}
+@media (max-width: 460px) {
+  .card-body {
+    height: 350px;
+    padding-bottom: 20px;
+  }
+  .weather__hidden {
+    height: 40px;
+    font-size: 12px;
+  }
+}
+@media (max-width: 390px) {
+  .card-body {
+    height: inherit;
+  }
+  .weather__hidden {
+    transform: translateY(30%);
+  }
+}
